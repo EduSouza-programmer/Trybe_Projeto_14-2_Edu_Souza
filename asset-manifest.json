@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/Trybe_Projeto_14-2_Edu_Souza/static/js/main.b3aca40d.chunk.js",
-    "main.js.map": "/Trybe_Projeto_14-2_Edu_Souza/static/js/main.b3aca40d.chunk.js.map",
+    "main.js": "/Trybe_Projeto_14-2_Edu_Souza/static/js/main.77699f5c.chunk.js",
+    "main.js.map": "/Trybe_Projeto_14-2_Edu_Souza/static/js/main.77699f5c.chunk.js.map",
     "runtime-main.js": "/Trybe_Projeto_14-2_Edu_Souza/static/js/runtime-main.09979280.js",
     "runtime-main.js.map": "/Trybe_Projeto_14-2_Edu_Souza/static/js/runtime-main.09979280.js.map",
     "static/js/2.79160cb0.chunk.js": "/Trybe_Projeto_14-2_Edu_Souza/static/js/2.79160cb0.chunk.js",
     "static/js/2.79160cb0.chunk.js.map": "/Trybe_Projeto_14-2_Edu_Souza/static/js/2.79160cb0.chunk.js.map",
     "index.html": "/Trybe_Projeto_14-2_Edu_Souza/index.html",
-    "precache-manifest.441108f88e83ce7c59705ddeed4977a2.js": "/Trybe_Projeto_14-2_Edu_Souza/precache-manifest.441108f88e83ce7c59705ddeed4977a2.js",
+    "precache-manifest.437bbc64daba11501288439b00993e56.js": "/Trybe_Projeto_14-2_Edu_Souza/precache-manifest.437bbc64daba11501288439b00993e56.js",
     "service-worker.js": "/Trybe_Projeto_14-2_Edu_Souza/service-worker.js",
     "static/js/2.79160cb0.chunk.js.LICENSE.txt": "/Trybe_Projeto_14-2_Edu_Souza/static/js/2.79160cb0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.09979280.js",
     "static/js/2.79160cb0.chunk.js",
-    "static/js/main.b3aca40d.chunk.js"
+    "static/js/main.77699f5c.chunk.js"
   ]
 }
