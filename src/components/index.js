@@ -1,0 +1,9 @@
+export { default as CardProduct } from './CardProduct';
+export { default as Header } from './Header';
+export { default as SearchInput } from './SearchInput';
+export { default as SideBar } from './SideBar';
+export { default as Loading } from './Loading';
+export { default as Input } from './Input';
+export { default as StarRating } from './StarRating';
+export { default as CartItem } from './CartItem';
+export { default as CardEvaluation } from './CardEvaluation';
