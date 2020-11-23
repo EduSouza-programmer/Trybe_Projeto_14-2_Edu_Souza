@@ -5,8 +5,8 @@ import * as pg from './pages';
 
 function App() {
   return (
-    <BrowserRouter>
-      <GlobalStyle basename="/" />
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <GlobalStyle />
       <Switch>
         <Route exact path="/" component={pg.Home} />
         <Route path="/shopcart" component={pg.ShopCart} />
