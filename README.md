@@ -48,22 +48,22 @@ O trabalho consiste em construir o Front-End de um e-commerce, uma loja online, 
 
 #### :clipboard: Requisitos
 
-- <p><a href="#1"> :pushpin: 1.</a> IMPLEMENTAR MÓDULO DE ACESSO À API DO MERCADO LIVRE.</p>
-- <p><a href="#2"> :pushpin: 2.</a> CRIAR PÁGINA DE LISTAGEM DE PRODUTOS VAZIA.</p>
-- <p><a href="#3"> :pushpin: 3.</a> CRIAR PÁGINA DO CARRINHO DE COMPRAS.</p>
-- <p><a href="#4"> :pushpin: 4.</a> LISTAR AS CATEGORIAS DE PRODUTOS DISPONÍVEIS VIA API NA PÁGINA PRINCIPAL.</p>
-- <p><a href="#5"> :pushpin: 5.</a> BUSCAR POR TERMOS E RECEBER UMA LISTAGEM DE PRODUTOS, COM DADOS RESUMIDOS, ASSOCIADOS A ESSES TERMOS.</p>
-- <p><a href="#6"> :pushpin: 6.</a> SELECIONAR UMA CATEGORIA E VER SOMENTE PRODUTOS DAQUELA CATEGORIA.</p>
-- <p><a href="#7"> :pushpin: 7.</a> CLICAR NA EXIBIÇÃO RESUMIDA DE UM PRODUTO E IR PARA UMA TELA COM SUA EXIBIÇÃO DETALHADA.</p>
-- <p><a href="#8"> :pushpin: 8.</a> ADICIONAR PRODUTOS A PARTIR DA TELA DE LISTAGEM DE PRODUTOS.</p>
-- <p><a href="#9"> :pushpin: 9.</a> ADICIONAR UM PRODUTO AO CARRINHO A PARTIR DE SUA TELA DE EXIBIÇÃO DETALHADA.</p>
-- <p><a href="#10"> :pushpin: 10.</a> VISUALIZAR A LISTA DE PRODUTOS ADICIONADOS AO CARRINHO EM SUA PÁGINA E MANIPULAR SUA QUANTIDADE.</p>
-- <p><a href="#11"> :pushpin: 11.</a> AVALIAR E COMENTAR ACERCA DE UM PRODUTO EM SUA TELA DE EXIBIÇÃO DETALHADA.</p>
-- <p><a href="#12"> :pushpin: 12.</a> FINALIZAR COMPRA, VENDO UM RESUMO DELA, PREENCHENDO OS MEUS DADOS E ESCOLHENDO A FORMA DE PAGAMENTO.</p>
-- <p><a href="#13"> :pushpin: 13.</a> VER JUNTO AO ÍCONE DO CARRINHO A QUANTIDADE DE PRODUTOS DENTRO DELE, EM TODAS AS TELAS EM QUE ELE APARECE.</p>
-- <p><a href="#14"> :pushpin: 14.</a> A QUANTIDADE DE PRODUTOS ADICIONADOS AO CARRINHO DEVE SER LIMITADA PELA QUANTIDADE DISPONÍVEL EM ESTOQUE.</p>
-- <p><a href="#15"> :pushpin: 15.</a> VER QUAIS PRODUTOS TEM FRETE GRÁTIS.</p>
-- <p><a href="#16"> :pushpin: 16.</a> FAÇA UM LAYOUT PARA O SITE.</p>
+- <p><a href="#1"> :pushpin: 1.</a> Implementar módulo de acesso a api do mercado livre.</p>
+- <p><a href="#2"> :pushpin: 2.</a> Criar página de listagem de produtos vazia.</p>
+- <p><a href="#3"> :pushpin: 3.</a> Criar página do carrinho de compras.</p>
+- <p><a href="#4"> :pushpin: 4.</a> Listar as categorias de produtos disponíveis via api na página principal.</p>
+- <p><a href="#5"> :pushpin: 5.</a> Buscar por termos e receber uma listagem de produtos, com dados resumidos.</p>
+- <p><a href="#6"> :pushpin: 6.</a> Selecionar uma categoria e ver somente produtos daquela categoria.</p>
+- <p><a href="#7"> :pushpin: 7.</a> Clicar na exibição resumida de um produto e ir para uma tela com sua exibição detalhada.</p>
+- <p><a href="#8"> :pushpin: 8.</a> Adicionar produtos a partir da tela de listagem de produtos.</p>
+- <p><a href="#9"> :pushpin: 9.</a> Adicionar um produto ao carrinho a partir de sua tela de exibição detalhada.</p>
+- <p><a href="#10"> :pushpin: 10.</a> Visualizar a lista de produtos adicionados ao carrinho em sua página e manipular sua quantidade.</p>
+- <p><a href="#11"> :pushpin: 11.</a> Avaliar e comentar acerca de um produto em sua tela de exibição detalhada.</p>
+- <p><a href="#12"> :pushpin: 12.</a> Finalizar compra, vendo um resumo dela, preenchendo os meus dados e escolhendo a forma de pagamento.</p>
+- <p><a href="#13"> :pushpin: 13.</a> Ver junto ao ícone do carrinho a quantidade de produtos dentro dele, em todas as telas em que ele aparece.</p>
+- <p><a href="#14"> :pushpin: 14.</a> A quantidade de produtos adicionados ao carrinho deve ser limitada pela quantidade disponível em estoque.</p>
+- <p><a href="#15"> :pushpin: 15.</a> Ver quais produtos tem frete grátis.</p>
+- <p><a href="#16"> :pushpin: 16.</a> Faça um layout para o site.</p>
 
   
 ### Concluído :rocket:
