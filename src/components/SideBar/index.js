@@ -17,9 +17,9 @@ export class SideBar extends Component {
 
   // resolvi testa assim, funciona :) só foi um teste mesmo.
   async handleEventClick({ target: { name, value } }) {
-    const { callBack } = this.props;
+    const { callBack, nameState } = this.props;
     await this.setState({ [name]: value });
-    callBack(this.state.categoryID);
+    callBack({ [nameState]: this.state.categoryID });
   }
 
   fetchCategories() {

@@ -63,3 +63,7 @@ export const addEvaluationProduct = (keyID, evaluation) => {
     saveObj(`Feeds-${keyID}`, [evaluation]);
   }
 };
+
+export const getFromViewAndSetStateCompenent = (value, stateName, setState) => {
+  setState({ [stateName]: value });
+};

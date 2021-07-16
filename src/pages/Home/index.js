@@ -13,6 +13,7 @@ export class Home extends Component {
     this.getCurrentcategoryID = this.getCurrentcategoryID.bind(this);
     this.updateCartList = this.updateCartList.bind(this);
     this.fetchSearchButton = this.fetchSearchButton.bind(this);
+    this.setState = this.setState.bind(this);
     this.state = {
       isLoading: false,
       currentID: '',
@@ -20,15 +21,16 @@ export class Home extends Component {
       searchInput: '',
       searchResults: true,
       cartProducts: [],
+      sideBar: null,
     };
   }
 
-  getCurrentcategoryID(id) {
-    this.setState({ currentID: id });
+  getCurrentcategoryID(obj) {
+    this.setState(obj);
 
     this.setState({ isLoading: true }, async () => {
       const obj = await api.getProductsFromCategoryAndQuery(
-        id,
+        this.state.currentID,
         this.state.searchInput
       );
       this.setState({ products: obj.results, isLoading: false });
@@ -37,12 +39,12 @@ export class Home extends Component {
 
   updateCartList(product) {
     storage.addProductToCart('cartProducts', product);
-    storage.getDataObjAndSet('cartProducts', (state) => this.setState(state));
+    storage.getDataObjAndSet('cartProducts', this.setState);
   }
 
   componentDidMount() {
-    storage.getDataObjAndSet('products', (state) => this.setState(state));
-    storage.getDataObjAndSet('cartProducts', (state) => this.setState(state));
+    storage.getDataObjAndSet('products', this.setState);
+    storage.getDataObjAndSet('cartProducts', this.setState);
   }
 
   demandValidation(valid, obj) {
@@ -79,7 +81,7 @@ export class Home extends Component {
         <cp.Header />
         <css.ConteinerHome>
           <css.ContLeft>
-            <cp.SideBar callBack={this.getCurrentcategoryID} />
+            <cp.SideBar nameState="currentID" callBack={this.getCurrentcategoryID} />
           </css.ContLeft>
           <css.ContRight>
             <css.ContSearch badge={cartProducts.length}>
